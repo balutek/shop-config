@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: discovery
+  client:  # Not a client, don't register with yourself
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 8761   # HTTP (Tomcat) port
