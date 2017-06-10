@@ -1,6 +1,6 @@
 eureka:
-#  instance:
-#    hostname: eureka
+  instance:
+    hostname: TAKISEHOSTNEJM
   client:  # Not a client, don't register with yourself
     registerWithEureka: false
     fetchRegistry: false
