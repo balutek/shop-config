@@ -1,0 +1,6 @@
+server:
+  port: 1002
+
+password:
+  sha512:
+    salt: salt
